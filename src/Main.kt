@@ -1,3 +1,5 @@
+import kotlin.math.pow
+
 fun main() {
-    println("Hello World!")
+    for (i in 1..9) println(2.0.pow(i).toInt())
 }
